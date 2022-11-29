@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="_css/resumeStyles.css" type="text/css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,200;1,200&family=Merriweather:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Steven Herrera | Resume</title>
+  </head>
+  <script
+    src="https://kit.fontawesome.com/b575129b5d.js"
+    crossorigin="anonymous"
+  ></script>
+  <!-- look at week 7 pdf for position property -->
+  <nav class="navBar">
+    <a href="#workExperience">Work experience</a>
+    <a href="#education">Education</a>
+    <a href="#projects">Projects</a>
+    <a href="#contactMe">Contact me</a>
+  </nav>
+  <body>
+    <!-- // Intro -->
+    <header>
+      <div class="content-wrap">
+        <img
+          src="https://cdn.glitch.global/54cfc956-e218-4589-a3cc-1fc34c3a2368/headshot.jpg?v=1665429299816"
+          alt="Image of Steven Herrera"
+          class="profile-img column-narrow"
+        />
+        <div class="column-wide">
+          <h1>Steven Herrera</h1>
+          <h3>Computer science graduate with 4+ years coding experience</h3>
+          <p>
+            Highly motivated individual looking to apply academic knowledge to
+            solving real world scenarios
+          </p>
+        </div>
+        <!-- img was breaking out of its parent this is a way to fix it -->
+        <div style="clear: both"></div>
+      </div>
+    </header>
+
+    <main>
+      <!-- // Work Experience -->
+      <section class="workExperience" id="workExperience">
+        <div class="content-wrap">
+          <h2>Work Experience</h2>
+          <div class="column-narrow">
+            <!-- Job Details: copy this whole block to add more jobs -->
+            <h3>S Pass Driving School, Pasadena, CA - Driving Intructor</h3>
+            <p>January 2015 - Current</p>
+          </div>
+          <div class="column-wide">
+            <!-- Add as many paragraphs as you need. -->
+            <p>
+              As a driving instructor I teach students how to drive vehicles and
+              assist them throughout the process of acquiring a driver's
+              license.
+            </p>
+
+            <ul>
+              <li>
+                Evaluated students performce and documented their progress and
+                goals
+              </li>
+              <li>
+                Created an internal CRM tool to manage student/ employee
+                informaiton
+              </li>
+              <li>
+                Utilized GSuite applications to streamline appointment
+                scheduling and data collection for the business
+              </li>
+            </ul>
+          </div>
+          <!-- end of Job Details block. -->
+        </div>
+      </section>
+
+      <!-- // Education -->
+      <div class="education">
+        <div class="educaitonBackground">
+          <section id="education">
+            <div class="content-wrap">
+              <h2>Education</h2>
+              <h3>California State University - Northridge, CA</h3>
+              <p>January 2020 - December 2022</p>
+              <h4>B.S. in Computer Science</h4>
+              <ul>
+                <li>GPA: 3.5</li>
+              </ul>
+
+              <h3>Pasadena City College - Pasadena, CA</h3>
+              <p>August 2015 - January 2020</p>
+              <h4>Associates in Science</h4>
+              <ul>
+                <li>GPA: 3.3</li>
+              </ul>
+              <!-- End of school details. -->
+            </div>
+          </section>
+        </div>
+      </div>
+
+      <!-- // Projects -->
+      <section class="projects" id="projects">
+        <div class="content-wrap">
+          <h2>Projects</h2>
+
+          <h3>S Pass Driving School Website</h3>
+          <p>January 2021 - June 2021</p>
+          <ul>
+            <li>
+              Website that allows users to do CRUD operations on student records
+            </li>
+            <li>Mobile friendly interface design</li>
+            <li>Utilized a NoSQL backend for data storage</li>
+          </ul>
+
+          <h3>Homemade NoSQL Database</h3>
+          <p>August 2020 - December 2020</p>
+          <ul>
+            <li>
+              Implemented NoSQL Database using C++ without external libraries
+            </li>
+            <li>
+              Database was capable of CRUD operations and could accept boolean
+              expressions
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <!-- // Footer & contact info -->
+    <footer>
+      <div class="content-wrap">
+        <h2>Ways to get in Touch!</h2>
+
+        <!-- Social media and contact links. Add or remove any networks. -->
+        <div class="contact-info" id="contactMe">
+          <a href="mailto:stevenherrera70396@gmaail.com">
+            <i class="fa-regular fa-envelope-open fa-3x"></i>
+          </a>
+          <a href="https://hw-6-8.glitch.me" target="_blank">
+            <i class="fa-regular fa-file fa-3x"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/steven-herrera-a88660232/"
+            target="_blank"
+          >
+            <i class="fa-brands fa-linkedin fa-3x"></i>
+          </a>
+        </div>
+        <p>Copyright 2022 by Steven Herrera</p>
+      </div>
+    </footer>
+  </body>
+</html>

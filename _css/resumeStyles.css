@@ -1,0 +1,154 @@
+/* Color Palette
+# - color 1 #1572A1
+# - color 2 #9AD0EC
+# - color 3 #EFDAD7
+# - color 4 #E3BEC6
+*/
+
+/* Global styles 
+------------------------------------*/
+body {
+    background: #f0f0f0;
+    color: black;
+    font-family: 'Inter Tight', sans-serif;
+    margin: 0;
+}
+
+h1,h2,h3 {
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin: 0;
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 30px;
+  margin: 0;
+}
+
+h3 {
+  font-size: 25px;
+  margin: 0;
+  
+}
+
+a {
+  text-decoration: none;
+}
+
+.content-wrap {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 50px;
+  overflow: hidden;
+}
+
+.column-narrow {
+  width: 30%;
+  float: left;
+  padding-right: 3%;
+  min-height: 175px;
+}
+
+.column-wide {
+  width: 67%;
+  float: left;
+  min-height: 225px;
+}
+
+/* Navbar 
+------------------------------------*/
+/* src for evenly spacing items inside a navbar: https://stackoverflow.com/questions/69549480/how-can-i-make-the-space-between-the-items-of-the-nav-bar-be-the-same-between-ea
+*/
+.navBar {
+  position: fixed;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  background: white;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.navBar a {
+  color: black;
+}
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contact-info {
+  display: flex;
+  /* used space evenly due to the fact that i changed the text to 
+  images so text align center was no longer centering my items*/
+  justify-content: space-evenly;
+}
+
+.contact-info a {
+  padding: 10px;
+  display: inline-block;
+}
+
+/* Header & Footer 
+------------------------------------*/
+header {
+  background: #1572A1;
+  margin: 0;
+  padding: 10px;
+}
+
+.profile-img {
+  border-radius: 50%;
+}
+
+footer {
+  background: #1572A1;
+  padding: 20px;
+  text-align: center;
+}
+
+footer a {
+  color: rgb(0, 0, 0);
+  font-size: larger;
+}
+
+footer h2 {
+  padding: 20px;
+  font-size: 35px;
+}
+
+/* Work Experience
+------------------------------------*/
+.workExperience {
+  background: #9AD0EC;
+  padding: 10px;
+}
+
+
+/* Education
+------------------------------------*/
+/* src for background position https://stackoverflow.com/questions/9262861/css-background-image-to-fit-width-height-should-auto-scale-in-proportion */
+.education {
+  background-image: url("https://cdn.glitch.global/8fcefcba-4fbb-435d-990b-e3f686e4cd72/CSUN%20Library.jpg?v=1665641855162");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+
+}
+
+.educaitonBackground {
+  background: rgb(239, 218, 215, .8);
+}
+
+/* Projects
+------------------------------------*/
+.projects {
+  background: #E3BEC6;
+  padding: 10px;
+  
+}
